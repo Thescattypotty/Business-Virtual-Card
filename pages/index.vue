@@ -38,7 +38,7 @@
           <icon name="ph:paper-plane-tilt-bold" class="h-4 w-4" />
         </button>
         <a
-          href="https://github.com/fayazara/onelink"
+          href="https://github.com/Thescattypotty"
           target="_blank"
           class="h-12 flex items-center space-x-2 px-4 border-r text-xs font-medium bg-white text-slate-700"
         >
@@ -48,13 +48,6 @@
       </div>
     </div>
     <app-form-preview :data="data" />
-    <a
-      href="https://twitter.com/fayazara"
-      target="_blank"
-      class="absolute bottom-0 right-0 bg-white rounded-tl-lg shadow px-4 py-1 font-medium text-sm text-gray-500"
-    >
-      Made by Fayaz
-    </a>
   </div>
 </template>
 
@@ -78,44 +71,75 @@ const data = ref({
 
 const prefillDemoData = () => {
   data.value = {
-    n: "John Snow",
-    d: "I’m John Snow, the king in the north. I know Nothing.",
-    i: "https://i.insider.com/56743fad72f2c12a008b6cc0",
-    f: "https://www.facebook.com/john_snow",
-    t: "https://twitter.com/john_snow",
-    ig: "https://www.instagram.com/john_snow",
-    e: "mail@john_snow.cc",
-    gh: "https://github.com/john_snow",
-    tg: "https://t.me/john_snow",
-    w: "+918888888888",
-    y: "https://youtube.com/@john_snow",
-    l: "https://linkedin.com/john_snow",
+    n: "Bennis Yahya",
+    d: "Je suis développeur FullStack, actuellement étudiant à l'École Marocaine des Sciences de l'Ingénieur. Vous trouverez ci-dessous mes certifications ainsi que leurs liens respectifs (cliquez sur le certificat pour le voir).",
+    i: "https://avatars.githubusercontent.com/u/60051143",
+    f: "",
+    t: "",
+    ig: "",
+    e: "mail@bennis-yahya@outlook.com",
+    gh: "https://github.com/Thescattypotty",
+    tg: "",
+    w: "+212622645603",
+    y: "",
+    l: "https://www.linkedin.com/in/yahya-bennis-3a2ba425b/",
     ls: [
       {
         l: "My Website",
         i: "ph:globe-duotone",
-        u: "https://example.com",
+        u: "https://bennis-yahya.vercel.app/",
       },
       {
-        l: "Amazon wishlist",
-        i: "ant-design:amazon-outlined",
-        u: "https://amazon.in",
+        l: "React Native Certificat From Meta",
+        i: "ri:reactjs-line",
+        u: "https://coursera.org/share/07b5281c2ac87d49e930a3a3f21ff839",
       },
       {
-        l: "React JS course",
-        i: "grommet-icons:reactjs",
-        u: "https://reactjs.org/",
+        l: "Git & Github Certificat From IBM",
+        i: "pajamas:github",
+        u: "https://coursera.org/share/094b869c663e8d6833284870b7f8e4a9",
       },
       {
-        l: "Donate for our cause",
-        i: "iconoir:donate",
-        u: "https://who.int",
+        l: "Java & Object Oriented Programming Certificat from University of Pennsylvania",
+        i: "mdi:language-java",
+        u: "https://coursera.org/share/1920c8115d9d10eb2631bf5e05dd1ca9",
       },
       {
-        l: "Download my resume",
-        i: "ph:file-pdf",
-        u: "https://google.com",
+        l: "React Basics Certificat From Meta",
+        i: "ri:reactjs-line",
+        u: "https://coursera.org/share/073384991f5c4fcce6aa084760e2b443",
       },
+      {
+        l: "Introduction to Containers w/ Docker, Kubernetes & OpenShift Certificat from IBM",
+        i: "catppuccin:devcontainer",
+        u: "https://coursera.org/share/9a822b40214234c75ea2db62238a4bc3",
+      },
+      {
+        l: "Virtual Networks in Azure from Whizlabs",
+        i: "teenyicons:azure-outline",
+        u: "https://coursera.org/share/7844ec8f9cfc2b56f03ef94f5b4a58c8",
+      },
+      {
+        l: "Python for Everybody from University of Michingan",
+        i: "mdi:language-python",
+        u: "https://coursera.org/share/66dd07962f70ecc0dbbb7ebe5c446a7f",
+      },
+      {
+        l: "Software Engineering: Modeling Software Systems using UML from The Hong Kong University of Science and Technology",
+        i: "simple-icons:uml",
+        u: "https://coursera.org/share/f7ad2b0236d5e60a7488b881f34b34c7",
+      },
+      {
+        l: "Unix System Basics from Codio",
+        i: "logos:linux-tux",
+        u: "https://coursera.org/share/b123dedaec78f8f5d8dcb6085b058dc5",
+      },
+      {
+        l: "Introduction to Cybersecurity Tools & Cyberattacks from Codio",
+        i: "simple-icons:cyberdefenders",
+        u: "https://coursera.org/share/b123dedaec78f8f5d8dcb6085b058dc5",
+      },
+
     ],
   };
 };

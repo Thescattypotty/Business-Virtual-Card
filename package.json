@@ -8,6 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify-json/ph": "^1.1.14",
     "@nuxtjs/color-mode": "^3.2.0",
     "@nuxtjs/tailwindcss": "^6.3.0",
     "@tailwindcss/forms": "^0.5.3",

@@ -22,7 +22,7 @@
               :value="facebook"
               @input="$emit('update:facebook', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://fb.com/elonmusk"
+              placeholder="https://fb.com/senshi"
             />
           </div>
         </div>
@@ -43,7 +43,7 @@
               :value="twitter"
               @input="$emit('update:twitter', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://twitter.com/elonmusk"
+              placeholder="https://twitter.com/senshi"
             />
           </div>
         </div>
@@ -64,7 +64,7 @@
               :value="instagram"
               @input="$emit('update:instagram', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://instagram.com/elonmusk"
+              placeholder="https://instagram.com/senshi"
             />
           </div>
         </div>
@@ -85,7 +85,7 @@
               :value="github"
               @input="$emit('update:github', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://github.com/elonmusk"
+              placeholder="https://github.com/senshi"
             />
           </div>
         </div>
@@ -106,7 +106,7 @@
               :value="telegram"
               @input="$emit('update:telegram', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://t.me/elonmusk"
+              placeholder="https://t.me/senshi"
             />
           </div>
         </div>
@@ -127,7 +127,7 @@
               :value="linkedin"
               @input="$emit('update:linkedin', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://linkedin.com/elonmusk"
+              placeholder="https://linkedin.com/senshi"
             />
           </div>
         </div>
@@ -148,7 +148,7 @@
               :value="email"
               @input="$emit('update:email', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="elonmusk@geemail.com"
+              placeholder="senshi@geemail.com"
             />
           </div>
         </div>
@@ -169,7 +169,7 @@
               :value="youtube"
               @input="$emit('update:youtube', $event.target.value)"
               class="block w-full flex-1 rounded-none rounded-r-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-              placeholder="https://youtube.com/elonmusk"
+              placeholder="https://youtube.com/senshi"
             />
           </div>
         </div>
